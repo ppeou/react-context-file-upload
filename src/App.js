@@ -10,9 +10,9 @@ function App() {
     <ArrayContextProvider initialState={[1, 2, 3, 4]}>
       <ServiceContextProvider initialState={{files:[1, 2, 3, 4]}}>
         <div>
-          <MyList/>
-          <hr />
           <MyFile />
+          <hr />
+          <MyList/>
         </div>
       </ServiceContextProvider>
     </ArrayContextProvider>
